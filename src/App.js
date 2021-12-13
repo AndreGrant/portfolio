@@ -6,11 +6,12 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import MyImage from "./components/MyImage";
 
 function App() {
   return (
     <Router>
-      <div>
+      <div >
         <Header />
         <nav id="button-container">
           <button className="about-button">
@@ -23,6 +24,7 @@ function App() {
             <Link to="/contact">Contact Me</Link>
           </button>
         </nav>
+        <MyImage />
       </div>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -11,6 +11,7 @@ body {
   font-size: 64px;
   letter-spacing: 2px;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .main-header:hover {
@@ -23,7 +24,6 @@ body {
   flex-direction: row;
   margin-top: 15px;
   font-family: "Sawarabi Mincho", sans-serif;
-  color: #18578d;
 }
 
 .about-button {
@@ -31,7 +31,12 @@ body {
   font-family: "Sawarabi Mincho", sans-serif;
   font-size: 20px;
   background-color: #18578d;
-  color: beige;
+  color: beige !important;
+  text-decoration: none;
+}
+
+.about-button:hover{
+  color:coral;
 }
 
 .contact-button {
@@ -45,5 +50,26 @@ body {
   border: none;
   font-family: "Sawarabi Mincho", sans-serif;
   font-size: 20px;
-  background-color: #18578d;
+  color: beige;
+}
+
+.my-image{
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.image-caption{
+  font-family: "Sawarabi Mincho", sans-serif;
+  font-size: 20px;
+  color: bisque;
+  margin-left: 150px;
+}
+
+p{
+  color: bisque;
+  float: left;
+  font-family: "Sawarabi Mincho", sans-serif;
 }
